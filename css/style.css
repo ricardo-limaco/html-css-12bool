@@ -1,0 +1,62 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/**************************************************
+* Selettori Tag
+**************************************************/
+body {
+  color: white;
+}
+
+h1 {
+  color: black;
+  padding-top: 20px;
+}
+
+/**************************************************
+* Layout
+**************************************************/
+.blue {
+  background-color: #006cfa;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+.green {
+  background-color: #01e165;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #006cfa;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pd-top-20 {
+  padding-top: 20px;
+}
+
+.pd-l-r-10 {
+  padding: 0 10px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.align-star {
+  align-items: flex-start;
+}
