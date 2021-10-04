@@ -6,34 +6,38 @@
 /**************************************************
 * Selettori Tag
 **************************************************/
-body {
-  color: white;
-}
 
 h1 {
   color: black;
   padding-top: 20px;
 }
+h3 {
+  color: black;
+}
 
 /**************************************************
 * Layout
 **************************************************/
-.blue {
+.blue, .green {
   background-color: #006cfa;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 50px;
+  text-align: center;
+  color: white;
   border: 1px solid white;
+  padding: 15px;
 }
 .green {
   background-color: #01e165;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #006cfa;
 }
+.pd-top-20 {
+  padding-top: 20px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
 
 .container {
   width: 100%;
@@ -45,18 +49,28 @@ h1 {
   flex-wrap: wrap;
 }
 
-.pd-top-20 {
-  padding-top: 20px;
-}
-
-.pd-l-r-10 {
-  padding: 0 10px;
-}
-
-.h-100 {
-  height: 100px;
-}
-
 .align-star {
   align-items: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.justify-content-space-between {
+  justify-content: space-between;
 }
